@@ -1,31 +1,68 @@
-# Test Plan — Login
+# Test Plan — Funcionalidad Login
 
 ## Objetivo
-Validar que el login de la web funciona correctamente antes de su publicación.
+Verificar que la funcionalidad de login permite a los usuarios acceder correctamente al sistema, gestionando de forma adecuada los casos válidos e inválidos.
+
+---
 
 ## Alcance (In Scope)
-- Login
-- Validación de campos
-- Mensajes de error
+Las pruebas incluirán:
+
+- Login con credenciales válidas
+- Login con credenciales inválidas
+- Validación de campos obligatorios
+- Mensajes de error mostrados al usuario
+- Redirección tras login exitoso
+
+---
 
 ## Fuera de alcance (Out of Scope)
-- Diseño visual
-- Rendimiento
-- Seguridad
+Quedan fuera de este plan:
 
-## Tipo de pruebas
-- Pruebas funcionales
-- Smoke testing
-- Regression testing
+- Rendimiento y carga
+- Envío de emails
+- Recuperación de contraseña
 
-## Entorno de pruebas
-- Navegador Chrome
-- Entorno de pruebas
+---
 
-## Criterios de entrada
-- Funcionalidad desarrollada
-- Acceso a la web disponible
+## 🧪 Tipos de pruebas
+Se ejecutarán los siguientes tipos de pruebas:
 
-## Criterios de salida
-- Casos de prueba ejecutados
-- Bugs críticos corregidos
+- **Pruebas funcionales**  
+  Para verificar el comportamiento esperado del login.
+
+- **Smoke testing**  
+  Para comprobar que el login funciona de forma básica antes de continuar con más pruebas.
+
+- **Regression testing**  
+  Para asegurar que cambios futuros no rompen la funcionalidad.
+
+---
+
+## 🖥️ Entorno de pruebas
+- Navegador: Google Chrome
+- Entorno: Test
+- Dispositivo: Escritorio
+
+---
+
+## ▶️ Criterios de entrada
+Las pruebas comenzarán cuando:
+
+- La funcionalidad de login esté desarrollada
+- El entorno de pruebas esté disponible
+- Existan usuarios de prueba creados
+
+---
+
+## ⏹️ Criterios de salida
+Las pruebas finalizarán cuando:
+
+- Todos los casos de prueba definidos hayan sido ejecutados
+- Los bugs críticos y altos hayan sido reportados
+- No existan bloqueos que impidan continuar las pruebas
+
+---
+
+## 🧠 Notas finales
+Este Test Plan sirve como documento guía para la ejecución de pruebas de la funcionalidad de login y podrá actualizarse en futuras versiones del producto.
