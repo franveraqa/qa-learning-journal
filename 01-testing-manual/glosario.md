@@ -1,50 +1,54 @@
-# Glosario QA — Bloque 1: Fundamentos y Testing Manual
+# Glosario y Vocabulario QA — Bloque 1 (Fundamentos y Testing Manual)
 
-Este glosario recoge los **conceptos clave de QA y Testing Manual** utilizados durante el Bloque 1.  
-Incluye vocabulario en inglés imprescindible con explicación clara en español.
-
----
-
-## QA (Quality Assurance)
-Aseguramiento de la calidad.  
-Rol encargado de **prevenir errores**, reducir riesgos y asegurar que el producto cumple los requisitos antes de llegar al usuario.
+Este glosario combina **vocabulario en inglés y español** utilizado en QA y Testing Manual, con explicaciones claras orientadas a nivel **QA Junior**.
 
 ---
 
-## Tester
-Persona que ejecuta pruebas para encontrar fallos en el sistema.  
-En muchos equipos, el tester forma parte del rol QA.
+## QA — Quality Assurance (Aseguramiento de la Calidad)
+Rol encargado de asegurar la calidad del producto antes de que llegue al usuario.
+
+👉 En equipos se dice: *“QA va a validar la funcionalidad”*.
 
 ---
 
-## Quality
+## Tester — Tester / Probador
+Persona que ejecuta pruebas para detectar errores.
+
+👉 En muchos equipos, QA y Tester se usan como sinónimos.
+
+---
+
+## Quality — Calidad
 Grado en el que un producto cumple los requisitos y expectativas del usuario.
 
 ---
 
-## Bug
+## Bug — Error / Defecto
 Comportamiento del sistema que **no coincide con el resultado esperado**.
 
----
-
-## Defect
-Otro término para bug. Muy usado en documentación formal.
+👉 En español se suele decir *“bug”*, no *“error”*.
 
 ---
 
-## Error
-Acción incorrecta (humana o del sistema) que puede provocar un bug.
+## Defect — Defecto
+Sinónimo formal de bug, muy usado en documentación.
 
 ---
 
-## Failure
-Cuando el sistema falla en ejecución debido a un bug.
+## Error — Error humano o del sistema
+Acción incorrecta que puede provocar un bug.
 
 ---
 
-## STLC (Software Testing Life Cycle)
-Ciclo de vida del testing.  
-Define las fases del proceso de pruebas:
+## Failure — Fallo
+Cuando el sistema falla durante la ejecución debido a un bug.
+
+---
+
+## STLC — Software Testing Life Cycle  
+(Ciclo de Vida del Testing)
+
+Proceso que define las fases del testing:
 
 - Análisis
 - Planificación
@@ -55,170 +59,175 @@ Define las fases del proceso de pruebas:
 
 ---
 
-## Test Case (Caso de Prueba)
-Documento que define **qué probar**, **cómo probarlo** y **qué resultado se espera**.
+## Test Case — Caso de Prueba
+Documento que define:
+
+- Qué probar
+- Cómo probarlo
+- Qué resultado se espera
 
 ---
 
-## Test Plan
-Documento que organiza cómo se van a realizar las pruebas:
-qué se prueba, qué no, tipos de pruebas, entorno y criterios.
+## Test Plan — Plan de Pruebas
+Documento organizativo que define cómo se van a realizar las pruebas.
+
+👉 No ejecuta pruebas, **las organiza**.
 
 ---
 
-## Test Scenario
-Escenario general de prueba.  
-Describe **qué se prueba a alto nivel**, sin entrar en pasos detallados.
+## Test Scenario — Escenario de Prueba
+Descripción general de qué se va a probar, sin pasos detallados.
 
 ---
 
-## Test Suite
-Conjunto de casos de prueba relacionados entre sí.
+## Test Suite — Conjunto de Pruebas
+Grupo de casos de prueba relacionados.
 
 ---
 
-## Test Execution
-Ejecución de los casos de prueba siguiendo los pasos definidos.
+## Test Execution — Ejecución de Pruebas
+Proceso de ejecutar los casos de prueba definidos.
 
 ---
 
-## Expected Result (Resultado Esperado)
+## Expected Result — Resultado Esperado
 Comportamiento correcto que el sistema debería mostrar.
 
 ---
 
-## Actual Result (Resultado Real)
-Comportamiento real observado durante la prueba.
+## Actual Result — Resultado Real
+Comportamiento que realmente muestra el sistema al probar.
 
 ---
 
-## Pass
+## Pass — Aprobado
 Estado de un caso de prueba cuando el resultado real coincide con el esperado.
 
 ---
 
-## Fail
+## Fail — Fallido
 Estado de un caso de prueba cuando el resultado real **no coincide** con el esperado.
 
 ---
 
-## Blocked
-Estado de un caso de prueba que no puede ejecutarse por un bloqueo externo.
+## Blocked — Bloqueado
+Caso de prueba que no puede ejecutarse por una dependencia externa.
 
 ---
 
-## Smoke Testing
-Pruebas rápidas para comprobar que lo básico funciona.  
-Si fallan, no se continúa probando.
+## Smoke Testing — Pruebas Smoke / Pruebas Básicas
+Pruebas rápidas para comprobar que lo esencial funciona.
+
+👉 Si fallan, no se continúa probando.
 
 ---
 
-## Regression Testing
-Pruebas para verificar que funcionalidades que ya funcionaban **siguen funcionando** tras cambios.
+## Regression Testing — Pruebas de Regresión
+Verifican que funcionalidades que ya funcionaban **siguen funcionando** tras cambios.
 
 ---
 
-## Functional Testing
+## Functional Testing — Pruebas Funcionales
 Pruebas que verifican que una funcionalidad hace lo que debe hacer.
 
 ---
 
-## Severity (Severidad)
+## Severity — Severidad
 Impacto técnico de un bug en el sistema.
 
-- Alta / Critical
-- Media
-- Baja
+- High / Critical — Alta
+- Medium — Media
+- Low — Baja
 
 ---
 
-## Priority (Prioridad)
-Urgencia con la que un bug debe ser arreglado, según negocio.
+## Priority — Prioridad
+Urgencia con la que un bug debe arreglarse según negocio.
 
-- Alta
-- Media
-- Baja
-
----
-
-## Reproducible
-Un bug es reproducible cuando puede repetirse siguiendo los mismos pasos.
+- High — Alta
+- Medium — Media
+- Low — Baja
 
 ---
 
-## Steps to Reproduce
-Pasos claros para provocar el bug.
+## Reproducible — Reproducible
+Bug que puede repetirse siguiendo los mismos pasos.
 
 ---
 
-## Preconditions (Precondiciones)
+## Steps to Reproduce — Pasos para Reproducir
+Pasos claros que permiten provocar el bug.
+
+---
+
+## Preconditions — Precondiciones
 Estado inicial necesario para ejecutar un test o reproducir un bug.
 
 ---
 
-## Environment (Entorno)
+## Environment — Entorno
 Contexto donde se ejecutan las pruebas:
-navegador, versión, sistema, entorno (test, staging, etc.).
+navegador, versión, sistema, entorno (test, staging).
 
 ---
 
-## In Scope
-Funcionalidades que **sí** se van a probar según el Test Plan.
+## In Scope — Dentro del Alcance
+Funcionalidades que sí se van a probar.
 
 ---
 
-## Out of Scope
-Funcionalidades que **no** se van a probar.
+## Out of Scope — Fuera del Alcance
+Funcionalidades que no se van a probar.
 
 ---
 
-## Entry Criteria (Criterios de Entrada)
+## Entry Criteria — Criterios de Entrada
 Condiciones necesarias para comenzar las pruebas.
 
 ---
 
-## Exit Criteria (Criterios de Salida)
+## Exit Criteria — Criterios de Salida
 Condiciones necesarias para finalizar las pruebas.
 
 ---
 
-## User Error
-Error cometido por el usuario.  
-El sistema debe gestionarlo correctamente (mensaje, bloqueo).
+## User Error — Error del Usuario
+Error cometido por el usuario.
+El sistema debe gestionarlo correctamente.
 
 ---
 
-## System Error
-Error del sistema cuando debería funcionar correctamente → bug.
+## System Error — Error del Sistema
+El sistema falla cuando debería funcionar correctamente → bug.
 
 ---
 
-## Documentation
-Proceso de registrar pruebas, bugs y decisiones de QA de forma clara.
+## Documentation — Documentación
+Proceso de registrar pruebas, bugs y decisiones de QA.
 
 ---
 
-## Traceability
+## Traceability — Trazabilidad
 Relación entre requisitos, casos de prueba y bugs.
 
 ---
 
-## Risk
+## Risk — Riesgo
 Posibilidad de que un fallo afecte al producto o al usuario.
 
 ---
 
-## Release
+## Release — Versión / Entrega
 Versión del producto que se entrega a usuarios.
 
 ---
 
-## Verification
-Proceso de comprobar que el sistema cumple los requisitos definidos.
+## Verification — Verificación
+Comprobar que el sistema cumple los requisitos definidos.
 
 ---
 
-## Validation
-Proceso de comprobar que el sistema satisface las necesidades del usuario.
+## Validation — Validación
+Comprobar que el sistema satisface las necesidades del usuario.
 
 ---
