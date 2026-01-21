@@ -1,4 +1,4 @@
-# QA Learning Journal – Fran
+# QA Learning Journal
 
 Hola, soy **Fran**, QA Tester en formación.  
 Este repositorio documenta mi aprendizaje completo en **QA/Testing desde cero**, con foco en buenas prácticas profesionales y creación de un **portfolio empleable**.
