@@ -25,7 +25,7 @@ Quedan fuera de este plan:
 
 ---
 
-## 🧪 Tipos de pruebas
+## Tipos de pruebas
 Se ejecutarán los siguientes tipos de pruebas:
 
 - **Pruebas funcionales**  
@@ -39,14 +39,14 @@ Se ejecutarán los siguientes tipos de pruebas:
 
 ---
 
-## 🖥️ Entorno de pruebas
+## Entorno de pruebas
 - Navegador: Google Chrome
 - Entorno: Test
 - Dispositivo: Escritorio
 
 ---
 
-## ▶️ Criterios de entrada
+## Criterios de entrada
 Las pruebas comenzarán cuando:
 
 - La funcionalidad de login esté desarrollada
@@ -55,7 +55,7 @@ Las pruebas comenzarán cuando:
 
 ---
 
-## ⏹️ Criterios de salida
+## Criterios de salida
 Las pruebas finalizarán cuando:
 
 - Todos los casos de prueba definidos hayan sido ejecutados
@@ -64,5 +64,5 @@ Las pruebas finalizarán cuando:
 
 ---
 
-## 🧠 Notas finales
+## Notas finales
 Este Test Plan sirve como documento guía para la ejecución de pruebas de la funcionalidad de login y podrá actualizarse en futuras versiones del producto.
